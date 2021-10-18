@@ -7,3 +7,5 @@ Essentially, this is a satisfaction requirement problem that strives to satisfy 
 We make use of a Neural Network to find the best functions candidates that have a greater chance of satisfying the requirements. Then we use a classical Depth First Search up to some depth T to search the program state and test various combination of these functions. Note that the search itself is exhaustive, however it first searches over the functions that are assigned a greater probability by the Neural Net, thus the actual complexity of the problem should be lower in general. 
 
 Please read the Project Report for a complete description of the methodology used as well as some examples. 
+
+Dataset used in this implementation is courtesy of Dkamm, whose wonderful work on the same project can be found at https://github.com/dkamm/deepcoder.
