@@ -9,3 +9,5 @@ We make use of a Neural Network to find the best functions candidates that have 
 Please read the Project Report for a complete description of the methodology used as well as some examples. 
 
 Dataset used in this implementation is courtesy of Dkamm, whose wonderful work on the same project can be found at https://github.com/dkamm/deepcoder. Use the link provided there to run the model and set the path in the file of the 'Numeralize' function to T = 1 file on the unzipped dataset.
+
+Note that running the main.py file is enough to run the code, given that you have downloaded the model from the folder. However you can also take a look at model_initilization.py to replicate our training process and test it.
