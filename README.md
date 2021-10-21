@@ -10,4 +10,4 @@ Please read the Project Report for a complete description of the methodology use
 
 Dataset used in this implementation is courtesy of Dkamm, whose wonderful work on the same project can be found at https://github.com/dkamm/deepcoder. Use the link provided there to run the model and set the path in the file of the 'Numeralize' function to T = 1 file on the unzipped dataset.
 
-Note that running the main.py file is enough to run the code, given that you have downloaded the model from the folder. However you can also take a look at model_initilization.py to replicate our training process and test it. If you want to do this, first run the Numerilizor with the data. Then feed the outputs to the model when training and testing (as Final_Output_List).  
+Note that running the main.py file is enough to run the code, given that you have downloaded the model from the folder. However you can also take a look at model_initilization.py to replicate our training process and test it. If you want to do this, first run the Numerilizor with the data. Then feed the outputs to the model when training and testing (instead of final_output_list,final_input_list and final_labels).  
