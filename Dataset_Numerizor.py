@@ -50,7 +50,7 @@ def train_numerizor(T1_Train_Path) :
   for i in range(len(final_output_list)) :
     for j in range(len(final_output_list[i])) :
       final_output_list[i][j] += 256
-  return final_output_list
+  return final_output_list,final_input_list,final_labels
 def Test_Numerizor(T1_Test_Path) :
   json_file = open(T1_Test_Path)
   dataset_T_2 = json.load(json_file)
@@ -102,4 +102,4 @@ def Test_Numerizor(T1_Test_Path) :
   for i in range(len(final_output_list)) :
     for j in range(len(final_output_list[i])) :
       final_output_list[i][j] += 256
-  return final_output_list
+  return final_output_list,final_input_list,final_labels
