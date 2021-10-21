@@ -8,4 +8,4 @@ We make use of a Neural Network to find the best functions candidates that have 
 
 Please read the Project Report for a complete description of the methodology used as well as some examples. 
 
-Dataset used in this implementation is courtesy of Dkamm, whose wonderful work on the same project can be found at https://github.com/dkamm/deepcoder.
+Dataset used in this implementation is courtesy of Dkamm, whose wonderful work on the same project can be found at https://github.com/dkamm/deepcoder. Use the link provided there to run the model and set the path in the file of the 'Numeralize' function to T = 1 file on the unzipped dataset.
